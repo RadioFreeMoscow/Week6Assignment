@@ -3,7 +3,7 @@ $(document).ready(function() {
   var citypix = ["url(images/sydney.jpg)","url(images/austin.jpg)"];
   cities.forEach(function(city) {
     var text = "<option>" + city + "</option>";
-    $('#city-type').append(text);
+    // $('#city-type').append(text);
   });
 
   var updatePic = function(event) {
