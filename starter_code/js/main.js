@@ -12,9 +12,9 @@ $(document).ready(function() {
       $('body').css('background', citypix[1]);
     } else if (city === "syd") {
       $('body').css('background', citypix[0]);
- } else {
+    } else {
       $('body').css('background', 'url(images/' + city + '.jpg)');
-    }
+      }
     };
   $('#city-type').change(updatePic);
 });
